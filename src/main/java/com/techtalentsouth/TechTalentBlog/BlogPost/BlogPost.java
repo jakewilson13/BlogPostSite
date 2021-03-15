@@ -10,7 +10,7 @@ public class BlogPost {
 
 	@Id //sets property 'id as unique key in database
 	//allows the id to be generated
-	//@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long id;
 	private String title;
 	private String author;
